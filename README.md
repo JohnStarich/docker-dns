@@ -12,7 +12,7 @@ version: "3"
 
 services:
   dns:
-    image: johnstarich/dns:latest
+    image: johnstarich/dns:0.1
     ports:
     - "53:53/tcp"
     - "53:53/udp"
